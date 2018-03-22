@@ -6,12 +6,14 @@ body {
 
 .box {
   height: 100%;
-  width: 33vh;
+  width: 30vh;
   box-sizing: border-box;
+  padding: .2em;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .box:hover {
@@ -21,17 +23,28 @@ body {
 .box-container {
   display: flex;
   width: 100%;
-  height: 33vh;
+  height: 30vh;
   flex-direction: row;
   justify-content: space-between;
   box-sizing: border-box;
 }
 
 .main-display {
-  height: 67vh;
   display: flex;
-  border: 1px solid black;
+  height: 60vh;
+  border: 5px solid black;
+  border-radius: 20px;
   align-items: center;
   justify-content: center;
+  text-align: center;
   box-sizing: border-box;
 }
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
